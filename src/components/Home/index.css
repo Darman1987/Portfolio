@@ -1,0 +1,15 @@
+.avatar{
+    border-radius: 50%;
+    height: 250px;
+    padding: 30px;    
+  }
+
+  .btn {
+    border: none; 
+    color: white;
+    padding: 14px 28px; 
+    cursor: pointer; 
+    background-color: #0A0773;
+    margin-top: 5px;
+  }
+ 

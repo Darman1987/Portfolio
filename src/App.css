@@ -1,0 +1,36 @@
+body,ul,p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+
+.flex-S{
+    justify-content: flex-start;
+  }
+
+ .align-left{
+  align-items:flex-start ;
+ } 
+
+.direction-C{
+  flex-direction: column;
+}
+
+.flex-full{   
+   align-self: stretch;
+   text-align: center;
+   margin:0px 10px;
+}
+
+.hide{
+  display:none;
+}

@@ -1,0 +1,26 @@
+h2{
+    padding: 30px 10px 5px 0px;
+    margin-left: 15px;
+    border-bottom: 3px solid #0A0773;
+    font-weight: 500;    
+}
+p{
+    padding:0px 15px 5px 15px;
+}
+
+.subtitle{
+   border:none;
+   padding:5px 0px 0px 0px;
+   margin-left: 10px;   
+}
+.bar{   
+    border: 3px solid #0A0773;
+    padding: 5px;
+    background: linear-gradient(90deg, #0A0773 90%, #F2F2F2 10%);
+    color:white;     
+}
+
+h6{
+ align-self: flex-start;
+ margin:10px 10px 5px 10px;
+}
