@@ -6,7 +6,7 @@ import { BsLinkedin } from 'react-icons/bs';
 const Footer = ()=> {
   return (
     <div className='footer flex-full'>
-               <BsLinkedin/> <AiFillGithub/>
+           <a href='https://www.linkedin.com/in/diego-mesa-cuervo/'><BsLinkedin/></a> <a href='https://github.com/Darman1987'><AiFillGithub/></a>
                <h6>Designed & Built by Diego Mesa</h6>
     </div>
   )
