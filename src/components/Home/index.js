@@ -27,7 +27,7 @@ const Home = () => {
        <motion.img src={avatar} alt="Avatar" className='avatar' variants={Variants}
           initial="hidden"
           animate="visible" />
-       <a href={Resume}><button className="btn"><FaFileDownload/> Download CV</button></a>
+       <a href={Resume}><motion.button className="btn" whileHover={{ backgroundColor: "white", color:'#0A0773', border:'2px solid #0A0773'}}><FaFileDownload/> Download CV</motion.button></a>
     </div>
     
   )

@@ -4,6 +4,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { GrMail } from 'react-icons/gr';
 import { BsFillSendFill } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
+import {motion} from "framer-motion";
 import './index.css';
 
 
@@ -15,7 +16,7 @@ const Contact =()=> {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
   const [validationError, setvalidationError] = useState('');
-  const [style, setStyle] = useState({ color: 'red',alignSelf:'center' });
+  const [style, setStyle] = useState({ color: 'red', alignSelf:'center' });
 
   const templateParams = {
     from_name: name,
@@ -58,16 +59,23 @@ const Contact =()=> {
           <p><BsFillTelephoneFill/> <span>0405359332</span></p>
           <p><GrMail/><span>darman1987@hotmail.com</span></p>
         </div>
-        <form action="#" className='flex-container flex-full'>
+        <motion.form action="#" className='flex-container flex-full'  whileInView={{
+          scale: [0,1],
+          transition: {
+            duration: 1,
+            type: "spring",
+            stiffness: 20,
+          },
+        }}>
     
           <input type="text"   name="firstname" placeholder="Name" onChange={(e)=>setName(e.target.value)}/>    
           <input type="email" required name="email" placeholder="Email" onChange={(e)=>setEmail(e.target.value)}/> 
           <input type="text"   name="subject" placeholder="Subject" onChange={(e)=>setSubject(e.target.value)}/> 
           <textarea id="message"  name="message" placeholder="Message" onChange={(e)=>setMessage(e.target.value)} ></textarea>          
-          <button type="submit" className='btn submit'onClick={handleSubmit}>
+          <motion.button type="submit" whileHover={{ backgroundColor: "white", color:'#0A0773', border:'2px solid #0A0773' }} className='btn submit'onClick={handleSubmit}>
              <BsFillSendFill/> Send Message
-          </button>          
-         </form>
+          </motion.button>          
+         </motion.form>
          <div style={style}>{validationError}</div>         
     </div>
 

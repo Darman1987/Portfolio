@@ -14,13 +14,32 @@ p{
    margin-left: 10px;   
 }
 .bar{   
-    border: 3px solid #0A0773;
-    padding: 5px;
-    background: linear-gradient(90deg, #0A0773 90%, #F2F2F2 10%);
+    border: 3px solid #0A0773;      
     color:white;     
 }
 
 h6{
  align-self: flex-start;
  margin:10px 10px 5px 10px;
+}
+
+.html{
+    background: linear-gradient(90deg, #0A0773 99%, white 1%);    
+}
+.jscript{
+    background: linear-gradient(90deg, #0A0773 95%, white 5%);
+}
+.css{
+    background: linear-gradient(90deg, #0A0773 97%, white 3%);
+}
+.react{
+    background: linear-gradient(90deg, #0A0773 92%, white 8%);
+}
+
+.php{
+    background: linear-gradient(90deg, #0A0773 93%, white 7%);
+}
+
+.sql{
+    background: linear-gradient(90deg, #0A0773 87%, white 13%);
 }

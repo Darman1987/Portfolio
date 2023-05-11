@@ -5,7 +5,7 @@ nav{
 a {
     text-decoration: none;   
 }
-ul{
+nav ul{
     display: flex;
     list-style-type: none;
     flex-direction: column;  
@@ -36,6 +36,7 @@ li{
 
 .container-menu ul li a{
     color:white;
+    font-size: 2rem;
 }
 
 .container-menu a {
