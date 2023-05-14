@@ -26,31 +26,43 @@ const About =() =>{
     </div>
     <div className='flex-container direction-C '>
             <h2 className='subtitle'>My Skills</h2>         
-            <h6>HTML5</h6>
+           <div>
+           <h6>HTML5</h6>
             <div className='bar flex-full'> 
               <motion.div className='html ' variants={Variants} initial="hidden" whileInView="visible" viewport={{ once: true }}>99%</motion.div>
             </div>
-           
-            <h6>JavaScript</h6>
+           </div> 
+           <div>
+           <h6>JavaScript</h6>
             <div className='bar flex-full'> 
               <motion.div className='jscript ' variants={Variants} initial="hidden" whileInView="visible" >95%</motion.div>
             </div>
-            <h6>CSS</h6>
+           </div>
+           <div>
+           <h6>CSS</h6>
             <div className='bar flex-full'> 
               <motion.div className='css' variants={Variants} initial="hidden" whileInView="visible" viewport={{ once: true }}>97%</motion.div>
             </div>
+            </div>
+            <div>
             <h6>REACT</h6>
             <div className='bar flex-full'> 
               <motion.div className='react' variants={Variants} initial="hidden" whileInView="visible" viewport={{ once: true }}>92%</motion.div>
             </div>
+            </div>
+            <div>
             <h6>PHP</h6>
             <div className='bar flex-full'> 
               <motion.div className='php' variants={Variants} initial="hidden" whileInView="visible" >93%</motion.div>
             </div>
-            <h6>SQL</h6>
+            </div>
+             <div>
+             <h6>SQL</h6>
             <div className='bar flex-full'> 
               <motion.div className='sql' variants={Variants} initial="hidden" whileInView="visible" viewport={{ once: true }}>87%</motion.div>
             </div>
+             </div>    
+                      
       </div>
     </div>
   )

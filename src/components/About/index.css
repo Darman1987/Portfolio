@@ -17,6 +17,9 @@ p{
     border: 3px solid #0A0773;      
     color:white;     
 }
+#About .direction-C div{
+    align-self: stretch;
+   }   
 
 h6{
  align-self: flex-start;
@@ -42,4 +45,21 @@ h6{
 
 .sql{
     background: linear-gradient(90deg, #0A0773 87%, white 13%);
+}
+
+@media screen and (min-width: 768px) {
+   #About .flex-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+
+   #About .direction-C h2{
+    flex:100%;
+    text-align:center;
+   }
+
+   #About .direction-C div{
+    flex:50%;
+   }      
+    
 }

@@ -26,8 +26,7 @@ const Portfolio = () => {
   };
   return (
     <div id="Portfolio" className='flex-container  direction-C align-left'>
-           <h2>My Portfolio</h2>
-           
+          <span><h2>My Portfolio</h2></span>        
 
            <motion.div className="card flex-full" variants={Variants} initial="hidden" whileInView="visible" >
                 {/* <p>Featured Project</p> */}

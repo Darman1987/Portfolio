@@ -1,3 +1,4 @@
+
 .card {
    text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -32,4 +33,26 @@
 
   .card img{
     max-width: 300px;
+  }
+
+  @media screen and (min-width: 768px) {
+           #Portfolio {
+            flex-wrap: wrap;
+            flex-direction: row;
+          }
+
+          #Portfolio span {
+            flex: 100%;            
+            }
+          
+            #Portfolio h2 {
+              width: 140px;
+              /* text-align: center; */
+              /* margin:0 auto 15px auto; */
+            }
+
+            #Portfolio .card{
+              margin:10px;
+              width: 380px;
+            }
   }
