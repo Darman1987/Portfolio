@@ -56,7 +56,7 @@ const Contact =()=> {
 
   const sendEmail = () => { 
     setvalidationError('');
-    emailjs.send('service_20ctwz1', 'template_nc9utyd', templateParams, 'Ixv5KDhALh_o3apOI')
+    emailjs.send('Your_service', 'Your_template', templateParams, 'Your_Key')
       .then((result) => {
         console.log('Email sent successfully:', result.text);
         setStyle({ color: 'green', textAlign:'center'});
