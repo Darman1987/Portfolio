@@ -1,21 +1,19 @@
 import React from 'react'
 import './index.css';
-import {motion} from "framer-motion";
+import Bar from '../Bar';
+
 
 const About =() =>{
  
-  const Variants = {
-    hidden: {     
-      x:'-100px',          
-    },
-    visible: {    
-      x:'0px',            
-      transition: {        
-        duration: 1.5,
-        ease: "easeInOut",
-      }
-    }
-  };
+  const skills = [
+    {title:'HTML5', percentage: '99'},
+    {title:'JavaScript', percentage: '95'},
+    {title:'CSS', percentage: '97'},
+    {title:'REACT', percentage: '92'},
+    {title:'PHP', percentage: '96'},
+    {title:'SQL', percentage: '90'},
+  ];
+  
   return (
     <div id="About">
     <div className='flex-container flex-S'>
@@ -25,44 +23,13 @@ const About =() =>{
                   
     </div>
     <div className='flex-container direction-C '>
-            <h2 className='subtitle'>My Skills</h2>         
-           <div>
-           <h6>HTML5</h6>
-            <div className='bar flex-full'> 
-              <motion.div className='html ' variants={Variants} initial="hidden" whileInView="visible" viewport={{ once: true }}>99%</motion.div>
-            </div>
-           </div> 
-           <div>
-           <h6>JavaScript</h6>
-            <div className='bar flex-full'> 
-              <motion.div className='jscript ' variants={Variants} initial="hidden" whileInView="visible" >95%</motion.div>
-            </div>
-           </div>
-           <div>
-           <h6>CSS</h6>
-            <div className='bar flex-full'> 
-              <motion.div className='css' variants={Variants} initial="hidden" whileInView="visible" viewport={{ once: true }}>97%</motion.div>
-            </div>
-            </div>
-            <div>
-            <h6>REACT</h6>
-            <div className='bar flex-full'> 
-              <motion.div className='react' variants={Variants} initial="hidden" whileInView="visible" viewport={{ once: true }}>92%</motion.div>
-            </div>
-            </div>
-            <div>
-            <h6>PHP</h6>
-            <div className='bar flex-full'> 
-              <motion.div className='php' variants={Variants} initial="hidden" whileInView="visible" >93%</motion.div>
-            </div>
-            </div>
-             <div>
-             <h6>SQL</h6>
-            <div className='bar flex-full'> 
-              <motion.div className='sql' variants={Variants} initial="hidden" whileInView="visible" viewport={{ once: true }}>87%</motion.div>
-            </div>
-             </div>    
-                      
+            <h2 className='subtitle'>My Skills</h2>
+            {
+              skills.map((item, key)=>(
+                <Bar title={item.title} percentage={item.percentage} key={key} viewport={{ once: true }}/>
+              ))
+            }         
+                    
       </div>
     </div>
   )

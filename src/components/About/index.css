@@ -13,10 +13,7 @@ p{
    padding:5px 0px 0px 0px;
    margin-left: 10px;   
 }
-.bar{   
-    border: 3px solid #0A0773;      
-    color:white;     
-}
+
 #About .direction-C div{
     align-self: stretch;
    }   
@@ -24,27 +21,6 @@ p{
 h6{
  align-self: flex-start;
  margin:10px 10px 5px 10px;
-}
-
-.html{
-    background: linear-gradient(90deg, #0A0773 99%, white 1%);    
-}
-.jscript{
-    background: linear-gradient(90deg, #0A0773 95%, white 5%);
-}
-.css{
-    background: linear-gradient(90deg, #0A0773 97%, white 3%);
-}
-.react{
-    background: linear-gradient(90deg, #0A0773 92%, white 8%);
-}
-
-.php{
-    background: linear-gradient(90deg, #0A0773 93%, white 7%);
-}
-
-.sql{
-    background: linear-gradient(90deg, #0A0773 87%, white 13%);
 }
 
 @media screen and (min-width: 768px) {
