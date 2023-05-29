@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7a877751.css",
-    "main.js": "/Portfolio/static/js/main.efedc286.js",
+    "main.js": "/Portfolio/static/js/main.90a79eaa.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/avatar.jpg": "/Portfolio/static/media/avatar.d56846c0d94cc1507f59.jpg",
+    "static/media/avatar.jpg": "/Portfolio/static/media/avatar.78a76b1bbad64268680b.jpg",
     "static/media/memory.png": "/Portfolio/static/media/memory.518b4ff2093de78db390.png",
     "static/media/mesac.png": "/Portfolio/static/media/mesac.c69614e312277e3561e7.png",
-    "static/media/CV-Diego-2023.pdf": "/Portfolio/static/media/CV-Diego-2023.cc3c7b5f9c40b620f99e.pdf",
+    "static/media/CV-Diego-2023.pdf": "/Portfolio/static/media/CV-Diego-2023.5c8706f6d3275845a6ab.pdf",
     "static/media/kangaroo.png": "/Portfolio/static/media/kangaroo.801383d00d51e80f9f36.png",
     "static/media/covid.png": "/Portfolio/static/media/covid.85632b04bfca93050e14.png",
     "static/media/mockup.png": "/Portfolio/static/media/mockup.12562a93b035d84520e4.png",
     "index.html": "/Portfolio/index.html",
     "main.7a877751.css.map": "/Portfolio/static/css/main.7a877751.css.map",
-    "main.efedc286.js.map": "/Portfolio/static/js/main.efedc286.js.map",
+    "main.90a79eaa.js.map": "/Portfolio/static/js/main.90a79eaa.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a877751.css",
-    "static/js/main.efedc286.js"
+    "static/js/main.90a79eaa.js"
   ]
 }
