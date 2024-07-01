@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f6c8963f.css",
-    "main.js": "/Portfolio/static/js/main.be8da2db.js",
+    "main.js": "/Portfolio/static/js/main.574f0690.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.jpg": "/Portfolio/static/media/avatar.78a76b1bbad64268680b.jpg",
     "static/media/memory.png": "/Portfolio/static/media/memory.43213d82f5a93c6f595c.png",
     "static/media/csharp.png": "/Portfolio/static/media/csharp.dcfd7cba519fc03651fb.png",
     "static/media/mesac.png": "/Portfolio/static/media/mesac.c69614e312277e3561e7.png",
-    "static/media/CV-Diego.pdf": "/Portfolio/static/media/CV-Diego.4c90c63c4c5ec58fae0b.pdf",
+    "static/media/CV-Diego.pdf": "/Portfolio/static/media/CV-Diego.ba8a02f17c41a0fe720c.pdf",
     "static/media/kangaroo.png": "/Portfolio/static/media/kangaroo.801383d00d51e80f9f36.png",
     "static/media/budget.png": "/Portfolio/static/media/budget.3be87778290c81b061e4.png",
     "static/media/react.png": "/Portfolio/static/media/react.9de556ebcbbfc0ea51d3.png",
@@ -21,11 +21,11 @@
     "static/media/python.png": "/Portfolio/static/media/python.1dc59ead861aaa6d848a.png",
     "index.html": "/Portfolio/index.html",
     "main.f6c8963f.css.map": "/Portfolio/static/css/main.f6c8963f.css.map",
-    "main.be8da2db.js.map": "/Portfolio/static/js/main.be8da2db.js.map",
+    "main.574f0690.js.map": "/Portfolio/static/js/main.574f0690.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6c8963f.css",
-    "static/js/main.be8da2db.js"
+    "static/js/main.574f0690.js"
   ]
 }
